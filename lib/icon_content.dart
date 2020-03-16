@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
 
 class GenderWidget extends StatelessWidget {
   GenderWidget({@required this.iconGender, @required this.textGender});
@@ -19,10 +20,7 @@ class GenderWidget extends StatelessWidget {
         ),
         Text(
           textGender,
-          style: TextStyle(
-            fontSize: 18.0,
-            color: Color(0xFF8D8E98),
-          ),
+          style: kLabelTextStyle,
         )
       ],
     );
